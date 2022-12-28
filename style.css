@@ -1,0 +1,30 @@
+input:focus:invalid {
+  outline: none;
+  border: solid rgb(247, 101, 101) 2px;
+  background-color: rgb(250, 233, 233);
+}
+
+input:focus:valid {
+  outline: none;
+  border: solid rgb(177, 249, 177) 2px;
+  background-color: rgb(228, 249, 228);
+}
+
+textarea:focus:invalid {
+  outline: none;
+  border: solid rgb(247, 101, 101) 2px;
+  background-color: rgb(250, 233, 233);
+}
+
+textarea:focus:valid {
+  outline: none;
+  border: solid rgb(177, 249, 177) 2px;
+  background-color: rgb(228, 249, 228);
+}
+
+/* 事業形態で個人ボタンが押されたらdisabledするための装飾 */
+input:disabled {
+  outline: none;
+  border: solid rgb(42, 41, 41) 2px;
+  background-color: rgb(176, 173, 173);
+}
